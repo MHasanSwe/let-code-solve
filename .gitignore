@@ -1,1 +1,63 @@
+# Ignore object files and compiled binaries
+*.o
+*.obj
+*.so
 *.exe
+*.out
+*.a
+*.lib
+*.dll
+
+# Ignore build directories
+/build/
+/bin/
+/lib/
+/dist/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Ignore debugging files
+*.d
+*.gch
+*.gcno
+*.gcda
+*.gcov
+*.mem
+*.lst
+*.map
+
+# Ignore compiled dynamic libraries
+*.dylib
+
+# Ignore IDE project files (optional, depending on your environment)
+.vscode/
+.idea/
+*.iml
+*.project
+*.cproject
+
+# Ignore CMake and Makefile generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Ignore coverage and test result files
+*.gcov
+*.cov
+*.coverage
+*.tst
+*.res
+
+# Ignore personal or environment configuration files
+*.config
+.env
+
+# Ignore backup and editor swap files
+*.bak
+*~
